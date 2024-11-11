@@ -455,3 +455,71 @@ header .navlist a:hover::after {
     font-size: 16px;
   }
 }
+/* End of intro text section */
+
+/* Work Section--------- */
+.work-section{
+  background-color: #4511620A;
+}
+.card{
+  border: none;
+  background-color: transparent;
+  transition: 0.5s;
+}
+.card:hover{
+border: 1px;
+background-color: var(--bg-color);
+transform: scale(1.05);
+}
+.card-title{
+  font-size: 24px;
+  color: #222222;
+}
+
+.card-text{
+  font-size: 18px;
+  color: #626262;
+}
+.card img{
+  width: 120px;
+  
+}
+.work-btn {
+  font-size: 20px;
+  padding: 10px 15px;
+  background-color: #CC72FF;
+  color: var(--bg-color);
+  border: none;
+  transition: 0.5s;
+}
+.work-btn:hover{
+  background-color: var(--bg-color);
+  color: #CC72FF;
+  border: 1px solid #CC72FF;
+}
+.prog-btn {
+  font-size: 20px;
+  padding: 10px 15px;
+  background-color: #18A6DC;
+  color: var(--bg-color);
+  border: none;
+  transition: 0.5s;
+}
+.prog-btn:hover{
+  background-color: var(--bg-color);
+  color: #18A6DC;
+  border: 1px solid #18A6DC;
+}
+.media-btn {
+  font-size: 20px;
+  padding: 10px 15px;
+  background-color: #CA1F7B;
+  color: var(--bg-color);
+  border: none;
+  transition: 0.5s;
+}
+.media-btn:hover{
+  background-color: var(--bg-color);
+  color: #CA1F7B;
+  border: 1px solid #CA1F7B;
+}
