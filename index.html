@@ -27,39 +27,105 @@
     />
   </head>
   <body>
-<!-- Navbar Section -->
-<header class="fixed-top">
-    <div class="logo">
-      <img
-        src="/assets/images/feem-logo.png"
-        alt="feem Logo"
-      />
-    </div>
-    <ul class="navlist">
-      <li><a href="#home" style="--i:1" class="nav-link active">Home</a></li>
-      <li><a href="#about" style="--i:2" class="nav-link">About Us</a></li>
-      <li><a href="#what" style="--i:3" class="nav-link">What We Do</a></li>
-      <li><a href="#r&r" style="--i:4" class="nav-link">Resources & Research</a></li>
-      <li><a href="#get" style="--i:5" class="nav-link get-involved">Get Involved</a></li>
-      <li><a href="#contact" style="--i:6" class="nav-link contact-us">Contact Us</a></li>
-    </ul>
-    <div id="menu-icon" class="bx bx-menu"></div>
-  </header>
+    <!-- Navbar Section -->
+    <header class="fixed-top">
+      <div class="logo">
+        <img src="/assets/images/feem-logo.png" alt="feem Logo" />
+      </div>
+      <ul class="navlist">
+        <li><a href="#home" style="--i: 1" class="nav-link active">Home</a></li>
+        <li><a href="#about" style="--i: 2" class="nav-link">About Us</a></li>
+        <li><a href="#what" style="--i: 3" class="nav-link">What We Do</a></li>
+        <li>
+          <a href="#r&r" style="--i: 4" class="nav-link"
+            >Resources & Research</a
+          >
+        </li>
+        <li>
+          <a href="#get" style="--i: 5" class="nav-link get-involved"
+            >Get Involved</a
+          >
+        </li>
+        <li>
+          <a href="#contact" style="--i: 6" class="nav-link contact-us"
+            >Contact Us</a
+          >
+        </li>
+      </ul>
+      <div id="menu-icon" class="bx bx-menu"></div>
+    </header>
 
+    <!-- Hero Section--------------- -->
+    <section class="home-section">
+      <div class="hero-section">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div
+              class="carousel-item active"
+              style="background-image: url('assets/images/hero-img.png')"
+            >
+              <div class="overlay"></div>
+            </div>
+            <!-- Slide 2 -->
+            <div
+              class="carousel-item"
+              style="background-image: url('assets/images/hero-img.png')"
+            >
+              <div class="overlay"></div>
+            </div>
+            <!-- Slide 3 -->
+            <div
+              class="carousel-item"
+              style="background-image: url('assets/images/hero-img.png')"
+            >
+              <div class="overlay"></div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
 
-
-
-
-
+        <!-- Static Text and Donate Button -->
+        <div class="carousel-caption ">
+          <h5>Our Slogan:</h5>
+          <h1 class="styled-title">
+            <span class="first-part">For The</span>
+            <span class="under"><img src="/assets/images/underline.png" alt=""></span>
+            <span class="second-part">Good Of All.</span>
+          </h1>
+          <p>
+            A prosperous and a promising future for Ghana devoid of poverty is
+            in the hands of a well-educated and informed woman
+          </p>
+          <a href="donate.html" class="btn-donate mt-5">Donate Now</a>
+        </div>
+      </div>
+    </section>
 
     <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init({
-          once: true,
-        });
-      </script>
-     
+      AOS.init({
+        once: true,
+      });
+    </script>
   </body>
 </html>
