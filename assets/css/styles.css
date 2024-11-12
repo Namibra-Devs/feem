@@ -10,7 +10,7 @@
   --text-color: #222222;
   --button-color: #451162;
   --bg-color: #fff;
-  --second-bg-color: #fff;
+  --second-text-color: #626262;
   --big-font: 2.5rem;
   --normal-font: 2rem;
   --neon-box-shaddow: 0 0 0.5rem #12f7ff;
@@ -565,12 +565,12 @@ border: 1px solid #cc72ff;
 
 /* About Section------- */
 .about-section {
-  background-color: #ffffff; /* White background */
-  position: relative; /* Ensures positioning context for the absolute dot grid */
-  overflow: hidden; /* Hide any overflow from the dot grid */
+  background-color: #ffffff; 
+  position: relative;
+  overflow: hidden; 
 }
 
-.dot-grid-background {
+.dot-grid-background-left {
   position: absolute;
   top: 50%;
   left: 34;
@@ -582,7 +582,7 @@ border: 1px solid #cc72ff;
   z-index: 1;
 }
 
-.dot-grid-background .dot {
+.dot-grid-background-left .dot {
   width: 8px;
   height: 8px;
   background-color: var(--button-color);
@@ -591,7 +591,7 @@ border: 1px solid #cc72ff;
 
 .about-content {
   position: relative;
-  /* z-index: 2;  */
+  
 }
 
 .container {
@@ -692,8 +692,11 @@ border: 1px solid #cc72ff;
   .know-us p {
     font-size: 18px;
   }
-  .dot-grid-background {
+  .dot-grid-background-left {
     display: none;
+  }
+  .dot-grid-background-right{
+    display: none !important;
   }
   .image-container {
     position: relative;
@@ -713,3 +716,130 @@ border: 1px solid #cc72ff;
     transition: opacity 1s ease-in-out, transform 1s ease-in-out;
   }
 }
+/* End of About Section */
+
+/* Events Section------------------------ */
+.events-section {
+  background-color: #ffffff; 
+  position: relative;
+  overflow: hidden; 
+}
+.subtitle{
+  font-family: Sofia Sans;
+font-size: 30px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--text-color);
+text-align: center;
+}
+.text-muted{
+  width: Fixed (261px)px;
+height: Fixed (29px)px;
+top: 2485.84px;
+left: 589.5px;
+gap: 0px;
+opacity: 0px;
+color: var(--second-text-color);
+text-align: center;
+}
+.dot-grid-background-right {
+  position: absolute;
+  top: 55%;
+  right: 30;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: repeat(3, 8px);
+  grid-template-rows: repeat(6, 8px);
+  gap: 20px;
+  z-index: 1;
+}
+
+.dot-grid-background-right .dot {
+  width: 15px;
+  height: 15px;
+  background-color: var(--button-color);
+  border-radius: 50%;
+}
+/* Vertical Line for Events */
+.vertical-line {
+  width: 10px;
+  background-color: #451162;
+  border-radius: 5px;
+  height: 90px; /* Stretch line to full height */
+}
+.event-item {
+  align-items: start;
+}
+
+.event-title {
+  font-family: Sofia Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+color: var(--text-color);  
+}
+/* Styling for Date */
+.event-date {
+  text-align: center;
+  min-width: 50px;
+}
+.event-details{
+  width: Fixed (216px)px;
+height: Fixed (22px)px;
+top: 220px;
+left: 707.96px;
+gap: 0px;
+opacity: 0px;
+color: var(--second-text-color);
+}
+.event-date .date-day .date-year {
+  font-family: Sofia Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+}
+
+.event-date .date-month .date-year{
+  text-transform: uppercase;
+  color: #626262;
+  
+}
+.event-details i{
+  font-size: 24px;
+}
+.event-btn{
+  width: Hug (142px)px;
+height: Hug (48px)px;
+top: 3047px;
+left: 649px;
+padding: 12px 23px 12px 23px;
+gap: 10px;
+border-radius: 5px 0px 0px 0px;
+opacity: 0px;
+background-color: var(--button-color);
+color: var(--bg-color);
+transition: 0.5s ease-in;
+}
+.event-btn:hover{
+  background-color: var(--bg-color);
+  color: var(--button-color);
+border: 1px solid var(--button-color);
+}
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .event-item {
+    flex-direction: row !important; /* Make items align horizontally on mobile */
+   
+  }
+}
+/* End of Events Section */
