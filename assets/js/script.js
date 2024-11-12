@@ -27,4 +27,23 @@
       };
   });
  
-  
+// JavaScript to change images every 7 seconds with opposite direction animation
+const images = document.querySelectorAll(".image-container img");
+let currentImageIndex = 0;
+
+function changeImage() {
+  // Set current active image to inactive with shadow effect
+  images[currentImageIndex].classList.remove("active-image");
+  images[currentImageIndex].classList.add("inactive-image");
+
+  // Update index for next image
+  currentImageIndex = (currentImageIndex + 1) % images.length;
+
+  // Set new image as active
+  images[currentImageIndex].classList.remove("inactive-image");
+  images[currentImageIndex].classList.add("active-image");
+}
+
+// Change image every 4 seconds
+setInterval(changeImage, 4000);
+

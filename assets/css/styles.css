@@ -7,7 +7,7 @@
   text-decoration: none;
 }
 :root {
-  --text-color: #000;
+  --text-color: #222222;
   --button-color: #451162;
   --bg-color: #fff;
   --second-bg-color: #fff;
@@ -30,7 +30,7 @@
 }
 
 body {
-  font-family: "poppins", sans-serif;
+  font-family: Sofia Sans;
   height: 100%;
   padding-top: 70px;
 }
@@ -76,6 +76,13 @@ header .navlist li {
   animation-delay: calc(0.3s * var(--i));
   /* opacity: 0; */
   position: relative;
+  font-family: Sofia Sans;
+  font-size: 20px;
+
+  line-height: 28.8px;
+
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 .navlist a:hover {
   color: var(--button-color);
@@ -289,16 +296,28 @@ header .navlist a:hover::after {
   transform: translate(-50%, -50%);
 }
 .carousel-caption h5 {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Sofia Sans;
   font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
   margin-bottom: 20px;
+  color: #fff;
 }
 .carousel-caption h1 {
   font-size: 4rem;
   font-weight: bold;
   color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Sofia Sans;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
   margin-bottom: 20px;
 }
 
@@ -306,18 +325,24 @@ header .navlist a:hover::after {
   font-size: 1.5rem;
   color: #fff;
   margin-bottom: 60px;
+  font-weight: 400;
+  font-family: Sofia Sans;
 }
 
 .btn-donate {
   background-color: var(--button-color);
   color: #fff;
-  padding: 10px 20px;
-  font-size: 1.5rem;
-  text-decoration: none;
-  border-radius: 5px;
+  width: Hug (165px)px;
+  height: Hug (48px)px;
+  padding: 12px 23px 12px 23px;
+  gap: 10px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
   top: 10%;
   margin-left: 45%;
   transition: 0.5s;
+  font-size: 1.5rem;
+  text-decoration: none;
 }
 
 .btn-donate:hover {
@@ -434,92 +459,257 @@ header .navlist a:hover::after {
 /* Intro Section */
 .intro-text {
   background-color: #ffffff; /* White background */
-
 }
-.intro-text h2{
+.intro-text h2 {
   font-size: 32px;
   color: var(--button-color);
   margin-bottom: 15px;
 }
-.lead{
+.lead {
   color: #626262;
   font-size: 24px;
 }
 
 /* Intro Text Responsivenes------ */
 @media (max-width: 768px) {
-  .intro-text h2{
+  .intro-text h2 {
     font-size: 18px;
   }
-  .lead{
+  .lead {
     font-size: 16px;
   }
 }
 /* End of intro text section */
 
 /* Work Section--------- */
-.work-section{
-  background-color: #4511620A;
+.work-section {
+  background-color: #4511620a;
 }
-.card{
+.card {
   border: none;
   background-color: transparent;
   transition: 0.5s;
 }
-.card:hover{
-border: 1px;
-background-color: var(--bg-color);
-transform: scale(1.05);
+.card:hover {
+  border: 1px;
+  background-color: var(--bg-color);
+  transform: scale(1.05);
 }
-.card-title{
+.card-title {
   font-size: 24px;
   color: #222222;
 }
 
-.card-text{
+.card-text {
   font-size: 18px;
   color: #626262;
 }
-.card img{
+.card img {
   width: 120px;
-  
 }
 .work-btn {
-  font-size: 20px;
-  padding: 10px 15px;
-  background-color: #CC72FF;
+  font-size: 18px;
+  width: Hug (142px)px;
+height: Hug (48px)px;
+padding: 12px 23px 12px 23px;
+gap: 10px;
+border-radius: 5px 0px 0px 0px;
+opacity: 0px;
+border: 1px solid #cc72ff;
+  background-color: #cc72ff;
   color: var(--bg-color);
-  border: none;
-  transition: 0.5s;
+ transition: 0.5s;
 }
-.work-btn:hover{
+.work-btn:hover {
   background-color: var(--bg-color);
-  color: #CC72FF;
-  border: 1px solid #CC72FF;
+  color: #cc72ff;
+  border: 1px solid #cc72ff;
 }
 .prog-btn {
-  font-size: 20px;
-  padding: 10px 15px;
-  background-color: #18A6DC;
+  font-size: 18px;
+  width: Hug (142px)px;
+  height: Hug (48px)px;
+  padding: 12px 23px 12px 23px;
+  gap: 10px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #18a6dc;
   color: var(--bg-color);
-  border: none;
+  border: 1px solid #18a6dc;
   transition: 0.5s;
 }
-.prog-btn:hover{
+.prog-btn:hover {
   background-color: var(--bg-color);
-  color: #18A6DC;
-  border: 1px solid #18A6DC;
+  color: #18a6dc;
+  border: 1px solid #18a6dc;
 }
 .media-btn {
-  font-size: 20px;
-  padding: 10px 15px;
-  background-color: #CA1F7B;
+  font-size: 18px;
+  width: Hug (142px)px;
+  height: Hug (48px)px;
+  padding: 12px 23px 12px 23px;
+  gap: 10px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #ca1f7b;
   color: var(--bg-color);
-  border: none;
+  border: 1px solid #ca1f7b;
   transition: 0.5s;
 }
-.media-btn:hover{
+.media-btn:hover {
   background-color: var(--bg-color);
-  color: #CA1F7B;
-  border: 1px solid #CA1F7B;
+  color: #ca1f7b;
+  border: 1px solid #ca1f7b;
+}
+/* End of work Section */
+
+/* About Section------- */
+.about-section {
+  background-color: #ffffff; /* White background */
+  position: relative; /* Ensures positioning context for the absolute dot grid */
+  overflow: hidden; /* Hide any overflow from the dot grid */
+}
+
+.dot-grid-background {
+  position: absolute;
+  top: 50%;
+  left: 34;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: repeat(3, 8px);
+  grid-template-rows: repeat(6, 8px);
+  gap: 20px;
+  z-index: 1;
+}
+
+.dot-grid-background .dot {
+  width: 8px;
+  height: 8px;
+  background-color: var(--button-color);
+  border-radius: 50%;
+}
+
+.about-content {
+  position: relative;
+  /* z-index: 2;  */
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Title Line */
+.title-line {
+  height: 4px;
+  background-color: var(--button-color);
+  max-width: 10%;
+  margin-right: 10px;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #222222;
+}
+.main-title {
+  color: #451162;
+  font-size: 48px;
+  font-weight: 700;
+}
+.know-us p {
+  font-family: Sofia Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #626262;
+}
+.know-divs h5 {
+  font-family: Sofia Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #222222;
+}
+.know-btn {
+  width: Hug (142px) px;
+  height: Hug (48px) px;
+  top: 458.88px;
+  left: 129.2px;
+  padding: 12px 23px 12px 23px;
+  gap: 10px;
+  border-radius: 5px 0px 0px 0px;
+  border: #451162 1px solid;
+  opacity: 0px;
+  background-color: #451162;
+  transition: 0.5s;
+}
+.know-btn:hover {
+  background-color: var(--bg-color);
+  color: #451162;
+  border: #451162 1px solid;
+}
+/* Image Container with Opposite Shadow Effect */
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.active-image {
+  opacity: 1;
+  z-index: 2;
+  transform: translateX(0);
+}
+
+.inactive-image {
+  opacity: 0;
+  z-index: 1;
+  transform: translateX(-20px);
+  box-shadow: -20px 0 15px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 991px) {
+  .main-title {
+    font-size: 24px;
+  }
+  .know-us p {
+    font-size: 18px;
+  }
+  .dot-grid-background {
+    display: none;
+  }
+  .image-container {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+  }
+  .image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  }
 }
