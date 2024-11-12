@@ -744,6 +744,7 @@ gap: 0px;
 opacity: 0px;
 color: var(--second-text-color);
 text-align: center;
+font-size: 24px;
 }
 .dot-grid-background-right {
   position: absolute;
@@ -788,6 +789,13 @@ color: var(--text-color);
 .event-date {
   text-align: center;
   min-width: 50px;
+  font-family: Sofia Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 26.6px;
+ 
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 .event-details{
   width: Fixed (216px)px;
@@ -800,7 +808,7 @@ color: var(--second-text-color);
 }
 .event-date .date-day .date-year {
   font-family: Sofia Sans;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 500;
   line-height: 21.6px;
   text-align: left;
@@ -829,6 +837,7 @@ opacity: 0px;
 background-color: var(--button-color);
 color: var(--bg-color);
 transition: 0.5s ease-in;
+margin-top: 20px;
 }
 .event-btn:hover{
   background-color: var(--bg-color);
@@ -841,5 +850,46 @@ border: 1px solid var(--button-color);
     flex-direction: row !important; /* Make items align horizontally on mobile */
    
   }
+  .event-date {
+    font-size: 1.2rem;
+    margin-top: 6px;
+    margin-right: 8px;
+  }
 }
 /* End of Events Section */
+
+/* Testimonies Section----------- */
+.stories img{
+  transition: 0.5s;
+}
+.stories img:hover{
+  transform: scale(1.05);
+}
+.text-start{
+  font-family: Sofia Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.6px;
+letter-spacing: -0.01em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--second-text-color);
+}
+.name{
+  font-family: Sofia Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: -0.01em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--text-color);
+}
+@media (max-width: 767px) {
+  .text-start{
+    width: 85%;
+   
+  }
+}
