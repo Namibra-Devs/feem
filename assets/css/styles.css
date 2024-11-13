@@ -1122,6 +1122,84 @@ text-decoration-skip-ink: none;
 color: var(--second-text-color);
 }
 
+@media (max-width: 768px){
+  .heading-top-left{
+    width: 70%;
+    font-size: 1.5rem;
+  }
+  .heading-bottom-right{
+    margin-left: 8%;
+    
+  }
+  .heading-bottom-right h2{
+    font-size: 1.2rem;
+  }
+  .about-intro{
+    margin-top: 10px;
+  }
+  .about-intro-section{
+    height: 55vh;
+  }
+}
+/* End of Intro */
+
+
+/* About Video Section */
+#about-video {
+  padding: 50px 0;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.video-container {
+  position: relative; 
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Play Icon Styling */
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px; /* Size of the play icon */
+  color: white;
+  background: rgba(0, 0, 0, 0.5); 
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.play-icon:hover {
+  transform: translate(-50%, -50%) scale(1.1); 
+}
+
+@media (max-width: 768px){
+  .play-icon{
+    font-size: 25px;
+  }
+}
+
+
+
+
+
+
+
+
 
 
 /* Animations--------------------- */
