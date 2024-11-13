@@ -915,3 +915,48 @@ color: var(--text-color);
 border: 1px solid var(--button-color);
 }
 /*End of Volunteer section---- */
+
+/* Blogs Sction----- */
+.date{
+  font-family: Sofia Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--second-text-color);
+}
+.blog-p {
+  font-family: Sofia Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 28.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--text-color);
+}
+.read{
+  font-family: Sofia Sans;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--button-color);
+transition: 0.3s ease-in;
+text-decoration: none;
+}
+.read:hover{
+text-decoration: underline;
+color: var(--text-color);
+}
+
+@media (max-width: 767px) {
+  .blog-p{
+    font-size: 1.2rem;
+  }
+}
+/* End Of Blog Section */
