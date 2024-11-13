@@ -1153,7 +1153,7 @@ color: var(--second-text-color);
 
 .video-container {
   position: relative; 
-  max-width: 90%;
+  max-width: 65%;
   margin: 0 auto;
 }
 
@@ -1167,7 +1167,7 @@ color: var(--second-text-color);
 /* Play Icon Styling */
 .play-icon {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 50px; /* Size of the play icon */
@@ -1181,16 +1181,77 @@ color: var(--second-text-color);
   justify-content: center;
   cursor: pointer;
   transition: transform 0.3s ease;
+
 }
 
 .play-icon:hover {
   transform: translate(-50%, -50%) scale(1.1); 
 }
 
+/* Mission and Vision Section Styling */
+.mission-vision-container {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping on larger screens */
+  gap: 50px;
+  padding: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.mission, .vision {
+  flex: 1;
+  padding: 20px;
+ 
+}
+
+
+.mission h2, .vision h2 {
+  font-family: Sofia Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+color: var(--text-color);  
+}
+
+.mission h3, .vision h3 {
+  font-family: Sofia Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+color: var(--button-color);  
+}
+
+.mission p, .vision p {
+  font-family: Sofia Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+color: var(--second-text-color);  
+}
+
 @media (max-width: 768px){
+  .video-container{
+    max-width: 90%;
+  }
   .play-icon{
     font-size: 25px;
+    top: 11%;
+    width: 69px;
+    height: 69px;
   }
+  .mission-vision-container {
+    flex-wrap: wrap; 
+    gap: 0;
+}
 }
 
 
