@@ -1335,9 +1335,117 @@ color: #18A6DC;
   text-decoration-skip-ink: none;
   color: #132593;
 }
+/* End Of Core Values Section------- */
 
+/* Focus Section */
+.dot-grid-background-core {
+  position: absolute;
+  top: 399%;
+  left: 34;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: repeat(3, 8px);
+  grid-template-rows: repeat(6, 8px);
+  gap: 20px;
+  z-index: 1;
+}
 
+.dot-grid-background-core .dot {
+  width: 8px;
+  height: 8px;
+  background-color: var(--button-color);
+  border-radius: 50%;
+}
 
+.focus-section h2{
+  font-family: Sofia Sans;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+color: #451162;  
+}
+.focus-section p{
+  font-family: Sofia Sans;
+font-size: 24px;
+font-weight: 400;
+line-height: 39.49px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--second-text-color);
+}
+
+/* Split image------ */
+.image-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr; /* Two rows */
+  grid-template-columns: 2fr 1fr; /* Two columns with different width */
+  gap: 10px; /* Optional spacing between parts */
+  width: 100%;
+  height: 400px; /* Adjust the height as needed */
+}
+
+.image-part {
+  background-image: url('/assets/images/split6.jpg'); /* Path to your image */
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.top {
+  grid-row: 1; /* Top row */
+  grid-column: 1 / span 2; /* Span across both columns */
+  border-radius: 10px;
+}
+
+.bottom-left {
+  grid-row: 2;
+  grid-column: 1;
+  background-position: left center; /* Adjust the cropping */
+  border-radius: 10px;
+}
+
+.bottom-right {
+  grid-row: 2;
+  grid-column: 2;
+  background-position: right center; /* Adjust the cropping */
+  border-radius: 10px;
+}
+
+/* 3. Rotate or Tilt Effect */
+.image-part:hover {
+  transform: scale(1.05) rotate(2deg); 
+}
+
+@media (max-width: 768px){
+  .dot-grid-background-core {
+    display: none;
+  }
+
+  .image-container {
+    display: block; /* Change to block for single image display */
+    height: auto; /* Let container adjust to content */
+  }
+
+  .image-part {
+    display: none; /* Hide all image parts by default */
+  }
+
+  .image-part.top {
+    display: block; /* Show only the top image */
+    width: 100%; /* Make it full width */
+    height: 300px; /* Adjust height as needed */
+    background-size: cover;
+    background-position: center;
+  }
+  .image-part:hover{
+    transform: none;
+  }
+}
+/* End of focus section------------ */
 
 
 
