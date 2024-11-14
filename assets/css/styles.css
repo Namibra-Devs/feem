@@ -1253,7 +1253,88 @@ color: var(--second-text-color);
     gap: 0;
 }
 }
+/* End of Video Section */
 
+/* Values Section---------------- */
+.core{
+  font-family: Sofia Sans;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  /* text-align: left; */
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+color: var(--text-color);  
+}
+.core-under{
+  display: block;
+  width: 100%;
+  height: 60px;
+  margin-left: 40px;
+}
+.account{
+  font-family: Sofia Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 28.8px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #A774E8;
+}
+.part{
+  font-family: Sofia Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 28.8px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #18A6DC;
+}
+.human{
+  font-family: Sofia Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #451162; 
+}
+.lead{
+  font-family: Sofia Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #954F91;
+}
+.trans{
+  font-family: Sofia Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #C2762F; 
+}
+.serv{
+  font-family: Sofia Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #6FA721; 
+}
+.res{
+  font-family: Sofia Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #132593;
+}
 
 
 
