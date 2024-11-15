@@ -1338,6 +1338,7 @@ color: #18A6DC;
 /* End Of Core Values Section------- */
 
 /* Focus Section */
+
 .dot-grid-background-core {
   position: absolute;
   top: 399%;
@@ -1447,8 +1448,49 @@ color: var(--second-text-color);
 }
 /* End of focus section------------ */
 
-
-
+/* Staff Section------- */
+.staff-section h2{
+  font-family: Sofia Sans;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+ 
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+color: var(--text-color);  
+}
+.staff-section h4{
+  font-family: Sofia Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--text-color);
+}
+.staff-section p{
+  font-family: Sofia Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.6px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #454545;
+}
+.staff-section img{
+  transition: 0.5s ease-in;
+}
+.staff-section img:hover{
+  transform: scale(1.06);
+}
+@media (max-width: 768px){
+  .staff-section img:hover{
+    transform: none;
+  }
+}
+/* End O staff Section----------- */
 
 
 
