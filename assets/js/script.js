@@ -14,8 +14,8 @@
   let navlist = document.querySelector(".navlist");
   
   menuIcon.onclick = () => {
-      menuIcon.classList.toggle("bx-x"); // Toggle the icon class
-      navlist.classList.toggle("open"); // Toggle the 'open' class on navlist
+      menuIcon.classList.toggle("bx-x");
+      navlist.classList.toggle("open"); 
   }
   
   
@@ -32,14 +32,14 @@ const images = document.querySelectorAll(".image-container img");
 let currentImageIndex = 0;
 
 function changeImage() {
-  // Set current active image to inactive with shadow effect
+  
   images[currentImageIndex].classList.remove("active-image");
   images[currentImageIndex].classList.add("inactive-image");
 
-  // Update index for next image
+  
   currentImageIndex = (currentImageIndex + 1) % images.length;
 
-  // Set new image as active
+
   images[currentImageIndex].classList.remove("inactive-image");
   images[currentImageIndex].classList.add("active-image");
 }
