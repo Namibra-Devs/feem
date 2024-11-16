@@ -1719,9 +1719,70 @@ text-decoration-skip-ink: none;
     line-height: normal;
   }
 }
-/* End Of Offer Section---------- */
+/* End Of Offer page---------- */
 
 
+/* Resources & Research Page */
+
+/* resource home Section-------- */
+.resources-research-section {
+  position: relative;
+  height: 100vh; /* Full-screen height */
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('/assets/images/resources-home.png'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  max-width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin-top: 70px;
+}
+
+.resources-content {
+  text-align: center;
+}
+
+.resources-title {
+  font-family: Sofia Sans;
+font-size: 40px;
+font-weight: 600;
+line-height: 48px;
+
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+/*Resouces & Research Intro Texts */
+.resource-intro-section {
+  background-color: #ffffff; 
+  /* padding: 4rem 1rem;  */
+}
+
+.resource-intro-text {
+  font-family: Sofia Sans;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+color: #626262;  
+}
+@media (max-width: 768px) {
+  .resource-intro-text{
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
 
 
 
