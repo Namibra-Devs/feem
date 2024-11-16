@@ -1646,7 +1646,9 @@ width: 50%;
 }
 
 @media (max-width: 768px) {
- 
+ .what-we-do{
+  height: 85vh;
+ }
   .image-wrapper {
       justify-content: center;
   }
@@ -1667,10 +1669,57 @@ width: 50%;
 }
 /* End Of What We do Section-------- */
 
+.offer-section {
+  background-color: #f8f9fa; /* Light background */
+}
 
+.offer-heading {
+  font-family: Sofia Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+color: #451162;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+}
 
+.offer-section .bi {
+  font-size: 1.75rem;
+}
 
+.list-unstyled li {
+  margin-bottom: 0.5rem;
+}
 
+.offer-section h5{
+  font-family: Sofia Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 28.8px;
+color: var(--text-color);
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.offer-section li{
+  font-family: Sofia Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+color: #454545;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+@media (max-width: 768px) {
+  .offer-heading{
+    font-size: 24px;
+    line-height: normal;
+  }
+}
+/* End Of Offer Section---------- */
 
 
 
