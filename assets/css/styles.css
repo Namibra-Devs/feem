@@ -891,6 +891,9 @@ header .navlist a:hover::after {
 /* End of Testimonies Section */
 
 /* Volunteer section---- */
+.volunteer-section{
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+}
 .volunteer-btn {
   width: Hug (142px) px;
   height: Hug (48px) px;
@@ -1727,12 +1730,13 @@ text-decoration-skip-ink: none;
 /* resource home Section-------- */
 .resources-research-section {
   position: relative;
-  height: 100vh; /* Full-screen height */
+  height: 100vh; 
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url('/assets/images/resources-home.png'); /* Replace with your image path */
+    url('/assets/images/resources-home.png'); 
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1783,9 +1787,65 @@ color: #626262;
     line-height: 25px;
   }
 }
+/* End of Intro Section--------- */
+/* Research section */
+.research-section {
+  background-color: #f9f9f9; /* Light background */
+}
 
+.research-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #343a40;
+}
 
+.research-part {
+  background: white;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
 
+.research-heading {
+  font-family: Sofia Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+color: #451162;  
+}
+
+.research-text {
+  font-family: Sofia Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+color: var(--second-text-color);  
+}
+
+.btn-link {
+  font-family: Sofia Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+color: #451162;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  transition: 0.3s ease-in;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+  color: var(--second-text-color);
+}
 
 
 
