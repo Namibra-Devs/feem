@@ -1868,7 +1868,7 @@ color: #451162;
 
 /* End of Resources & Research Page */
 
-/*Research Page */
+/*Sexual Health Page */
 .research-page {
   position: relative;
   width: 100%;
@@ -1896,7 +1896,7 @@ color: #451162;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 color: #451162;  
-  text-align: left; /* Ensure left alignment */
+  text-align: left; 
 }
 
 .research-text {
@@ -1911,7 +1911,7 @@ color: #451162;
 }
 
 .button-wrapper {
-  align-self: flex-start; /* Align button to the left */
+  align-self: flex-start; 
 }
 
 .resources-btn {
@@ -1953,6 +1953,18 @@ border: 1px solid #451162;
    
   }
 }
+/*End Sexual Health Page */
+
+/* Gender Page ---------------*/
+.gender-page{
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  background: url('/assets/images/research1.png') no-repeat center center/cover;
+ top: -14%;
+ filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+}
+/* End of Gender Page ---------------*/
 
 
 
