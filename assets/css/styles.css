@@ -2062,6 +2062,10 @@ color: #451162;
   .author-info{
     width: 90%;
   }
+  .after-title{
+    font-size: 25px !important;
+    line-height: 24px !important;
+  }
 }
 /* End Of Stories Home Section------ */
 /* Images--------- */
@@ -2069,7 +2073,7 @@ color: #451162;
   background-color: #f8f9fa; /* Light gray background */
 }
 
-.section-title {
+.after-title {
   font-family: Sofia Sans;
   font-size: 45px;
   font-weight: 600;
@@ -2080,16 +2084,39 @@ color: #451162;
 color: var(--text-color);  
 }
 
-img {
-  border-radius: 10px;
-}
+
 
 .shadow {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 /* End--------------- */
+.impact-title{
+  font-family: Sofia Sans;
+font-size: 30px;
+font-weight: 500;
+line-height: 36px;
 
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
 
+}
+.impact-section h3{
+  font-family: Sofia Sans;
+font-size: 24px;
+font-weight: 400;
+line-height: 28.8px;
+
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--second-text-color);
+}
+
+@media (max-width: 768px){
+  .impact-section h3{
+    font-size: 23px;
+    line-height: 20px;
+  }
+}
 
 
 
