@@ -765,7 +765,7 @@ header .navlist a:hover::after {
   background-color: var(--button-color);
   border-radius: 50%;
 }
-.events-section img{
+.events-section img {
   filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
 /* Vertical Line for Events */
@@ -897,7 +897,7 @@ header .navlist a:hover::after {
 /* End of Testimonies Section */
 
 /* Volunteer section---- */
-.volunteer-section{
+.volunteer-section {
   filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
 .volunteer-btn {
@@ -921,7 +921,7 @@ header .navlist a:hover::after {
 /*End of Volunteer section---- */
 
 /* Blogs Sction----- */
-.blog-section img{
+.blog-section img {
   filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
 .date {
@@ -967,7 +967,7 @@ header .navlist a:hover::after {
   }
 }
 /* End Of Blog Section */
-.gallery-section img{
+.gallery-section img {
   filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
 /* Footer Section-------------- */
@@ -1272,7 +1272,7 @@ header .navlist a:hover::after {
   text-decoration-skip-ink: none;
   color: var(--text-color);
 }
-.values-section img{
+.values-section img {
   filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
 .core-under {
@@ -1595,9 +1595,9 @@ header .navlist a:hover::after {
   .history p {
     text-align: center;
   }
-.span-container{
-width: 50%;
-}
+  .span-container {
+    width: 50%;
+  }
   .image-wrapper {
     text-align: center;
   }
@@ -1608,20 +1608,17 @@ width: 50%;
 
 /* End Of About Us Page-------------- */
 
-
 /* What We Do Page---------- */
-
 
 /* What We Do Section Styling */
 .what-we-do {
-  background-color: #ffffff; 
+  background-color: #ffffff;
   position: relative;
   max-width: 100%;
   height: 100vh;
   overflow: hidden;
   margin-top: 80px;
 }
-
 
 .what-heading {
   font-family: Sofia Sans;
@@ -1630,7 +1627,7 @@ width: 50%;
   color: #451162;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  }
+}
 
 .what-we-do p {
   font-family: Sofia Sans;
@@ -1645,45 +1642,44 @@ width: 50%;
 
 .what-we-do .image-wrapper {
   width: 100%;
-  overflow: hidden; 
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
 .what-we-do-image {
-  width: 100%; 
-  max-width: 100%; 
-  height: auto; 
-  border-radius: 8px; 
-  transition: transform 0.3s ease; 
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
   filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
 
 .what-we-do-image:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
- .what-we-do{
-  height: 85vh;
- }
-  .image-wrapper {
-      justify-content: center;
+  .what-we-do {
+    height: 85vh;
   }
-  .what-heading{
+  .image-wrapper {
+    justify-content: center;
+  }
+  .what-heading {
     font-size: 25px;
   }
-  .what-we-do p{
+  .what-we-do p {
     font-size: 18px;
   }
   .what-we-do-image {
-      width: 100%; 
-      max-width: 100%; 
-      border-radius: 0; 
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0;
   }
-  .what-we-do-image:hover{
+  .what-we-do-image:hover {
     transform: none;
   }
 }
@@ -1698,10 +1694,9 @@ width: 50%;
   font-size: 48px;
   font-weight: 700;
   line-height: 57.6px;
-color: #451162;
+  color: #451162;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  
 }
 
 .offer-section .bi {
@@ -1712,48 +1707,42 @@ color: #451162;
   margin-bottom: 0.5rem;
 }
 
-.offer-section h5{
+.offer-section h5 {
   font-family: Sofia Sans;
-font-size: 24px;
-font-weight: 700;
-line-height: 28.8px;
-color: var(--text-color);
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  color: var(--text-color);
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
-.offer-section li{
+.offer-section li {
   font-family: Sofia Sans;
-font-size: 20px;
-font-weight: 400;
-line-height: 24px;
-color: #454545;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #454545;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 
 @media (max-width: 768px) {
-  .offer-heading{
+  .offer-heading {
     font-size: 24px;
     line-height: normal;
   }
 }
 /* End Of Offer page---------- */
 
-
 /* Resources & Research Page */
 
 /* resource home Section-------- */
 .resources-research-section {
   position: relative;
-  height: 100vh; 
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url('/assets/images/resources-home.png'); 
-    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/assets/images/resources-home.png");
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1774,17 +1763,16 @@ text-decoration-skip-ink: none;
 
 .resources-title {
   font-family: Sofia Sans;
-font-size: 40px;
-font-weight: 600;
-line-height: 48px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
 
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 /*Resouces & Research Intro Texts */
 .resource-intro-section {
-  background-color: #ffffff; 
+  background-color: #ffffff;
   /* padding: 4rem 1rem;  */
 }
 
@@ -1796,16 +1784,15 @@ text-decoration-skip-ink: none;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-color: #626262;  
+  color: #626262;
 }
 @media (max-width: 768px) {
-  .resource-intro-text{
+  .resource-intro-text {
     font-size: 20px;
     line-height: 25px;
   }
 }
 /* End of Intro Section--------- */
-
 
 /* Research section */
 .research-section {
@@ -1835,7 +1822,7 @@ color: #626262;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-color: #451162;  
+  color: #451162;
 }
 
 .research-text {
@@ -1846,7 +1833,7 @@ color: #451162;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-color: var(--second-text-color);  
+  color: var(--second-text-color);
 }
 
 .btn-link {
@@ -1854,7 +1841,7 @@ color: var(--second-text-color);
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
-color: #451162;
+  color: #451162;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   transition: 0.3s ease-in;
@@ -1872,19 +1859,19 @@ color: #451162;
 .research-page {
   position: relative;
   width: 100%;
-  height: 100vh; 
-  background: url('/assets/images/research.png') no-repeat center center/cover;
- top: -14%;
- filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+  height: 100vh;
+  background: url("/assets/images/research.png") no-repeat center center/cover;
+  top: -14%;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
 .research-content-section {
   position: relative;
   width: 100%;
-  height: 120vh; 
-  background: #f4f4f4; 
+  height: 120vh;
+  background: #f4f4f4;
   padding: 2rem;
   display: flex;
-  align-items: flex-start; 
+  align-items: flex-start;
 }
 
 .research-title {
@@ -1895,8 +1882,8 @@ color: #451162;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-color: #451162;  
-  text-align: left; 
+  color: #451162;
+  text-align: left;
 }
 
 .research-text {
@@ -1907,16 +1894,16 @@ color: #451162;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: var(--second-text-color); 
+  color: var(--second-text-color);
 }
 
 .button-wrapper {
-  align-self: flex-start; 
+  align-self: flex-start;
 }
 
 .resources-btn {
-  width: Hug (226px)px;
-  height: Hug (58px)px;
+  width: Hug (226px) px;
+  height: Hug (58px) px;
   top: 1286.29px;
   left: 100.46px;
   padding: 15px 21px 15px 21px;
@@ -1924,67 +1911,64 @@ color: #451162;
   border-radius: 5px 0px 0px 0px;
   border: 0.5px 0px 0px 0px;
   opacity: 0px;
-background-color: #ffffff;  
-color: #451162;
-border: 1px solid #451162;
+  background-color: #ffffff;
+  color: #451162;
+  border: 1px solid #451162;
 }
 
 .resources-btn:hover {
   background-color: #451162;
   color: #ffffff;
-
 }
 
-
-@media (max-width: 768px){
-  .research-page{
+@media (max-width: 768px) {
+  .research-page {
     height: 30vh;
   }
-  .research-content-section{
+  .research-content-section {
     padding: 0 1rem;
     top: -50;
   }
-  .research-title{
+  .research-title {
     font-size: 25px;
   }
-  .research-text{
+  .research-text {
     font-size: 17px;
     line-height: 25.78px;
-   
   }
 }
 /*End Sexual Health Page */
 
 /* Gender Page ---------------*/
-.gender-page{
+.gender-page {
   position: relative;
   width: 100%;
-  height: 100vh; 
-  background: url('/assets/images/research1.png') no-repeat center center/cover;
- top: -14%;
- filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+  height: 100vh;
+  background: url("/assets/images/research1.png") no-repeat center center/cover;
+  top: -14%;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
 /* End of Gender Page ---------------*/
 
 /* Menstrual Page--------- */
-.menstrual-page{
+.menstrual-page {
   position: relative;
   width: 100%;
-  height: 100vh; 
-  background: url('/assets/images/research3.png') no-repeat center center/cover;
- top: -14%;
- filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+  height: 100vh;
+  background: url("/assets/images/research3.png") no-repeat center center/cover;
+  top: -14%;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
 /* End Of Menstrual Page--------- */
 
 /* Building Esteem Page---------- */
-.building-page{
+.building-page {
   position: relative;
   width: 100%;
-  height: 100vh; 
-  background: url('/assets/images/research4.png') no-repeat center center/cover;
- top: -14%;
- filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+  height: 100vh;
+  background: url("/assets/images/research4.png") no-repeat center center/cover;
+  top: -14%;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
 /* Enf Of Building Esteem Page---------- */
 
@@ -1993,17 +1977,16 @@ border: 1px solid #451162;
   background-color: #ffffff; /* Light background */
   margin-top: 20px;
 }
-.date-muted{
+.date-muted {
   color: var(--text-color);
   font-family: Sofia Sans;
-font-size: 15px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0.015em;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.015em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 .impact-heading {
   font-family: Sofia Sans;
@@ -2013,12 +1996,12 @@ text-decoration-skip-ink: none;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-color: #451162;  
+  color: #451162;
 }
-.impact-stories img{
+.impact-stories img {
   filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
-.story-details{
+.story-details {
   width: 70%;
 }
 .story-details p {
@@ -2029,15 +2012,13 @@ color: #451162;
   text-align: justified;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  
 }
 
 .author-info {
   margin-top: 2rem;
-  border-left: 3px solid #451162; 
+  border-left: 3px solid #451162;
   padding-left: 1rem;
   width: 70%;
-
 }
 
 .vertical-line {
@@ -2051,18 +2032,18 @@ color: #451162;
   color: #333;
 }
 
-@media (max-width: 768px){
-  .impact-heading{
+@media (max-width: 768px) {
+  .impact-heading {
     font-size: 25px;
     line-height: 25px;
   }
-  .story-details{
+  .story-details {
     width: 100% !important;
   }
-  .author-info{
+  .author-info {
     width: 90%;
   }
-  .after-title{
+  .after-title {
     font-size: 25px !important;
     line-height: 24px !important;
   }
@@ -2081,40 +2062,163 @@ color: #451162;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-color: var(--text-color);  
+  color: var(--text-color);
 }
-
-
 
 .shadow {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 /* End--------------- */
-.impact-title{
+.impact-title {
+  font-family: Sofia Sans;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.impact-section h3 {
+  font-family: Sofia Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--second-text-color);
+}
+
+@media (max-width: 768px) {
+  .impact-section h3 {
+    font-size: 23px;
+    line-height: 20px;
+  }
+}
+
+/* Get Involved Page--------------- */
+.get-involved-section {
+  position: relative;
+  background-image: url("/assets/images/get-home.png"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+  margin-top: 70px;
+}
+
+.get-involved-section .get-title {
+  font-family: Sofia Sans;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+/* DOnate Section----------- */
+.donate-section {
+  
+}
+
+.donate-head {
+  font-family: Sofia Sans;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+color: var(--text-color);  
+}
+.donate-section h3{
+  font-family: Sofia Sans;
+font-size: 40px;
+font-weight: 600;
+line-height: 48px;
+
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--button-color);
+}
+.donate-section h5{
   font-family: Sofia Sans;
 font-size: 30px;
-font-weight: 500;
+font-weight: 400;
 line-height: 36px;
 
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
-
+color: var(--text-color);
 }
-.impact-section h3{
+.donate-section p{
   font-family: Sofia Sans;
-font-size: 24px;
+font-size: 20px;
 font-weight: 400;
-line-height: 28.8px;
-
+line-height: 24px;
+text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: var(--second-text-color);
 }
+.donate-btn {
+  width: Hug (165px)px;
+  height: Hug (48px)px;
+  top: 309.25px;
+  left: 77.18px;
+  padding: 12px 23px 12px 23px;
+  gap: 10px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+background-color: var(--bg-color);
+color: var(--button-color); 
+border: 1px solid var(--button-color);
+transition: 0.3s ease-in; 
+filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+}
 
-@media (max-width: 768px){
-  .impact-section h3{
-    font-size: 23px;
-    line-height: 20px;
+.donate-btn:hover{
+  background-color: var(--button-color);
+  color: var(--bg-color);
+  border: 1px solid var(--bg-color);
+}
+.donate-section img {
+  max-width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 10px;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .get-involved-section{
+    height: 51vh;
+    margin-top: 61px;
+  }
+  .donate-head{
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .donate-section h3{
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .donate-section h5{
+    font-size: 20px;
+    line-height: normal;
+  }
+  .donate-section p{
+    font-size: 17px;
+    line-height: normal;
   }
 }
 
