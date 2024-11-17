@@ -1988,9 +1988,82 @@ border: 1px solid #451162;
 }
 /* Enf Of Building Esteem Page---------- */
 
+/* Impact Stories page */
+.impact-stories {
+  background-color: #ffffff; /* Light background */
+  margin-top: 20px;
+}
+.date-muted{
+  color: var(--text-color);
+  font-family: Sofia Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.015em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
 
+}
+.impact-heading {
+  font-family: Sofia Sans;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+color: #451162;  
+}
+.impact-stories img{
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+}
+.story-details{
+  width: 70%;
+}
+.story-details p {
+  font-family: Sofia Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: justified;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+}
 
+.author-info {
+  margin-top: 2rem;
+  border-left: 3px solid #451162; 
+  padding-left: 1rem;
+  width: 70%;
 
+}
+
+.vertical-line {
+  width: 3px;
+  height: 100px;
+  background-color: #451162;
+}
+
+.author-name {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+@media (max-width: 768px){
+  .impact-heading{
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .story-details{
+    width: 100% !important;
+  }
+  .author-info{
+    width: 90%;
+  }
+}
+/* End Of Stories Home Section------ */
 
 
 
