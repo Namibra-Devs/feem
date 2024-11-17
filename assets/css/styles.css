@@ -256,6 +256,7 @@ header .navlist a:hover::after {
   height: 100vh;
   overflow: hidden;
   margin-top: 69px;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
 .hero-section {
   position: relative;
@@ -506,6 +507,7 @@ header .navlist a:hover::after {
 }
 .card img {
   width: 120px;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
 .work-btn {
   font-size: 18px;
@@ -763,6 +765,9 @@ header .navlist a:hover::after {
   background-color: var(--button-color);
   border-radius: 50%;
 }
+.events-section img{
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+}
 /* Vertical Line for Events */
 .vertical-line {
   width: 10px;
@@ -857,6 +862,7 @@ header .navlist a:hover::after {
 /* Testimonies Section----------- */
 .stories img {
   transition: 0.5s;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
 .stories img:hover {
   transform: scale(1.05);
@@ -915,6 +921,9 @@ header .navlist a:hover::after {
 /*End of Volunteer section---- */
 
 /* Blogs Sction----- */
+.blog-section img{
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+}
 .date {
   font-family: Sofia Sans;
   font-size: 18px;
@@ -958,7 +967,9 @@ header .navlist a:hover::after {
   }
 }
 /* End Of Blog Section */
-
+.gallery-section img{
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+}
 /* Footer Section-------------- */
 
 .footer-section {
@@ -1261,6 +1272,9 @@ header .navlist a:hover::after {
   text-decoration-skip-ink: none;
   color: var(--text-color);
 }
+.values-section img{
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+}
 .core-under {
   display: block;
   width: 100%;
@@ -1476,6 +1490,7 @@ header .navlist a:hover::after {
 }
 .staff-section img {
   transition: 0.5s ease-in;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
 .staff-section img:hover {
   transform: scale(1.06);
@@ -1491,6 +1506,7 @@ header .navlist a:hover::after {
 .history-section {
   display: flex;
   justify-content: center;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
 
 .history {
@@ -1638,10 +1654,11 @@ width: 50%;
 
 .what-we-do-image {
   width: 100%; 
-  max-width: 500px; 
+  max-width: 100%; 
   height: auto; 
   border-radius: 8px; 
   transition: transform 0.3s ease; 
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
 
 .what-we-do-image:hover {
@@ -1788,6 +1805,8 @@ color: #626262;
   }
 }
 /* End of Intro Section--------- */
+
+
 /* Research section */
 .research-section {
   background-color: #f9f9f9; /* Light background */
@@ -1846,6 +1865,105 @@ color: #451162;
   text-decoration: underline;
   color: var(--second-text-color);
 }
+
+/* End of Resources & Research Page */
+
+/*Research Page */
+.research-page {
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  background: url('/assets/images/research.png') no-repeat center center/cover;
+ top: -14%;
+ filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+}
+.research-content-section {
+  position: relative;
+  width: 100%;
+  height: 120vh; 
+  background: #f4f4f4; 
+  padding: 2rem;
+  display: flex;
+  align-items: flex-start; 
+}
+
+.research-title {
+  font-family: Sofia Sans;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 57.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+color: #451162;  
+  text-align: left; /* Ensure left alignment */
+}
+
+.research-text {
+  font-family: Sofia Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37.78px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--second-text-color); 
+}
+
+.button-wrapper {
+  align-self: flex-start; /* Align button to the left */
+}
+
+.resources-btn {
+  width: Hug (226px)px;
+  height: Hug (58px)px;
+  top: 1286.29px;
+  left: 100.46px;
+  padding: 15px 21px 15px 21px;
+  gap: 10px;
+  border-radius: 5px 0px 0px 0px;
+  border: 0.5px 0px 0px 0px;
+  opacity: 0px;
+background-color: #ffffff;  
+color: #451162;
+border: 1px solid #451162;
+}
+
+.resources-btn:hover {
+  background-color: #451162;
+  color: #ffffff;
+
+}
+
+
+@media (max-width: 768px){
+  .research-page{
+    height: 30vh;
+  }
+  .research-content-section{
+    padding: 0 1rem;
+    top: -50;
+  }
+  .research-title{
+    font-size: 25px;
+  }
+  .research-text{
+    font-size: 17px;
+    line-height: 25.78px;
+   
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
