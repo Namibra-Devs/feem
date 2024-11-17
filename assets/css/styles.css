@@ -2064,6 +2064,50 @@ color: #451162;
   }
 }
 /* End Of Stories Home Section------ */
+/* Images--------- */
+.stories-images {
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.section-title {
+  font-family: Sofia Sans;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+color: var(--text-color);  
+}
+
+img {
+  border-radius: 10px;
+}
+
+.shadow {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* End--------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
