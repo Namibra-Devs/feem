@@ -2120,9 +2120,7 @@ header .navlist a:hover::after {
   color: #ffffff;
 }
 /* DOnate Section----------- */
-.donate-section {
-  
-}
+
 
 .donate-head {
   font-family: Sofia Sans;
@@ -2292,14 +2290,119 @@ filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
     transform: none;
   }
 }
+/* End of contact us page------- */
+
+/* Events Page------------------- */
+.event-image-section {
+  background-image: url('/assets/images/event-home.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; 
+  position: relative;
+ margin-top: 70px;
+ filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+}
 
 
 
+.event-image-section .event-title {
+  font-size: 2.5rem; /* Adjust as needed */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Optional text shadow */
+}
+
+/* Events Section---------- */
+.events-content-section {
+  background-color: #f9f9f9;
+  
+}
+.event-item{
+  border: 1px solid #222222;
+  border-left: none;
+}
+.events-content-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.events-content-section i {
+  font-size: 25px;
+  color: var(--button-color);
+  
+}
+.event-heading{
+  font-family: Sofia Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 28.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--button-color);
+width: 70%;
+}
+.txt{
+  font-family: Sofia Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--second-text-color);
+width: 70%;
+}
+.events-content-section img {
+  border-radius: 0.5rem;
+}
+.featured-events-section i{
+  font-size: 1.5rem;
+  color: #451162;
+}
+.card-title{
+  font-family: Sofia Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 28.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #451162;
+}
+.events-content-section .event-image {
+  border-right: 2px solid #ddd; 
+}
+
+/* Featured Events Section----- */
+.featured-events-section .card {
+  border: 2px solid black;
+}
+
+.featured-events-section .card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 
 
-
-
-
+@media (max-width: 768px){
+  .event-image-section{
+    height: 93vh;
+    margin-top: 61px;
+  }
+  .event-item{
+    border: none;
+  }
+  .event-heading{
+    width: 100%;
+  }
+  .txt{
+    width: 100%;
+  }
+}
+/* End Of events Page */
 
 
 
