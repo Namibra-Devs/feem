@@ -2192,11 +2192,76 @@ filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
   border-radius: 10px;
   filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
+/* End Of Get Involved Page---- */
 
+/* Contact Us Page---------------- */
+.contact-us-section {
+  background-color: #f9f9f9;
+  margin-top: 70px;
+}
 
+.contact-us-section .section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
 
+.contact-us-section .section-heading {
+  font-size: 1.5rem;
+  color: #555;
+}
 
+.contact-us-section .icon i {
+  transition: transform 0.3s ease;
+  color: var(--button-color);
+}
 
+.contact-us-section .icon i:hover {
+  transform: scale(1.2);
+}
+
+.contact-us-section span {
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: inherit;
+}
+.border-bottom{
+  color: var(--text-color) !important;
+}
+/* Contact Section------------- */
+.contact-section {
+  background-color: #f9f9f9;
+}
+
+.contact-section .section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.contact-section p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.contact-section .form-control {
+  border-radius: 0.5rem;
+  border: 1px solid #ddd;
+}
+
+.contact-section .btn-primary {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+}
+.contact-section textarea {
+  resize: none;
+}
+.contact-section img{
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+}
 
 
 @media (max-width: 768px) {
@@ -2219,6 +2284,12 @@ filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
   .donate-section p{
     font-size: 17px;
     line-height: normal;
+  }
+  .contact-us-section{
+    margin-top: 60px;
+  }
+  .contact-us-section .icon i:hover{
+    transform: none;
   }
 }
 
