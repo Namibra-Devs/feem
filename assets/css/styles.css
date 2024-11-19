@@ -2401,11 +2401,26 @@ color: #451162;
   .txt{
     width: 100%;
   }
+  .gallery-page img{
+    transform: none !important;
+  }
 }
 /* End Of events Page */
 
+/* Gallery Page-------- */
+.gallery-page{
+  margin-top: 70px;
+}
 
+.gallery-page img {
+  transition: transform 0.3s ease;
+}
 
+.gallery-page img:hover {
+  transform: scale(1.05);
+}
+
+/* End Of Gallery Page------ */
 
 
 
