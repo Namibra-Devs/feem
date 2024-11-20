@@ -47,14 +47,6 @@ function changeImage() {
 // Change image every 4 seconds
 setInterval(changeImage, 4000);
 
-//Scroll top Arrow
-document.querySelector('.scroll-to-top').addEventListener('click', function(event) {
-    event.preventDefault();
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  });
 
 
   // Video Section

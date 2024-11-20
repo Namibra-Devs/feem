@@ -773,7 +773,7 @@ header .navlist a:hover::after {
   width: 10px;
   background-color: #451162;
   border-radius: 5px;
-  height: 90px; /* Stretch line to full height */
+  height: 90px; 
 }
 .event-item {
   align-items: start;
@@ -1041,24 +1041,6 @@ header .navlist a:hover::after {
 .footer-section .social-icons a:hover {
   color: #ddd;
   transform: scale(1.5);
-}
-
-/* Scroll-to-Top Button */
-.scroll-to-top {
-  position: relative;
-  bottom: 20px;
-  right: 0%;
-  color: #fff;
-  font-size: 1.5rem;
-  text-decoration: none;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  border-radius: 50%;
-  transition: color 0.3s, background-color 0.3s;
-}
-
-.scroll-to-top:hover {
-  color: #ddd;
 }
 
 /* Centering text on mobile */
@@ -2347,10 +2329,7 @@ header .navlist a:hover::after {
 .events-content-section {
   background-color: #f9f9f9;
 }
-.event-item {
-  border: 1px solid #222222;
-  border-left: none;
-}
+
 .events-content-section h2 {
   font-size: 2rem;
   font-weight: bold;
