@@ -49,22 +49,6 @@ setInterval(changeImage, 4000);
 
 
 
-  // Video Section
-  const video = document.getElementById("about-video-element");
-const playIcon = document.getElementById("play-icon");
-
-playIcon.addEventListener("click", () => {
-    video.play();
-    playIcon.style.display = "none";
-});
-
-video.addEventListener("pause", () => {
-    playIcon.style.display = "flex";
-});
-
-video.addEventListener("play", () => {
-    playIcon.style.display = "none";
-});
 
 
 

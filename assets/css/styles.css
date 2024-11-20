@@ -1068,7 +1068,7 @@ header .navlist a:hover::after {
   height: 80vh;
   overflow: hidden;
   margin-top: 80px;
-  z-index: ;
+ 
 }
 .about-intro {
   margin-top: 40px;
@@ -1080,7 +1080,7 @@ header .navlist a:hover::after {
   color: var(--button-color);
   width: 40%;
   font-family: Sofia Sans;
-  font-size: 48px;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 57.6px;
   text-align: left;
@@ -1092,7 +1092,7 @@ header .navlist a:hover::after {
 }
 .heading-bottom-right h2 {
   font-family: Sofia Sans;
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: 500;
   line-height: 36px;
   text-align: left;
@@ -1114,7 +1114,7 @@ header .navlist a:hover::after {
 @media (max-width: 768px) {
   .heading-top-left {
     width: 70%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .heading-bottom-right {
     margin-left: 8%;
@@ -1149,29 +1149,6 @@ header .navlist a:hover::after {
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Play Icon Styling */
-.play-icon {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 50px; /* Size of the play icon */
-  color: white;
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.play-icon:hover {
-  transform: translate(-50%, -50%) scale(1.1);
 }
 
 /* Mission and Vision Section Styling */
@@ -1239,6 +1216,9 @@ header .navlist a:hover::after {
   .mission-vision-container {
     flex-wrap: wrap;
     gap: 0;
+  }
+  .core-under{
+    width: 90% !important;
   }
 }
 /* End of Video Section */
@@ -1351,7 +1331,7 @@ header .navlist a:hover::after {
 
 .focus-section h2 {
   font-family: Sofia Sans;
-  font-size: 48px;
+  font-size: 2rem;
   font-weight: 600;
   line-height: 52px;
   text-align: left;
@@ -1361,9 +1341,9 @@ header .navlist a:hover::after {
 }
 .focus-section p {
   font-family: Sofia Sans;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 39.49px;
+  line-height: 30.49px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
