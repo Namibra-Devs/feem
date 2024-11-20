@@ -2541,7 +2541,29 @@ text-decoration-skip-ink: none;
 
 /*End Programs & Activitis Page----------------- */
 
+/* Activities page--------------- */
+.activities-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
 
+.activities-section h3 {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.activities-section img {
+  border: 2px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.activities-section p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #451162;
+  margin-top: 8px;
+}
 
 
 
