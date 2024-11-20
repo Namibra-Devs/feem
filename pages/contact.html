@@ -64,9 +64,12 @@
     </header>
 
     <!-- Home Section------- -->
-    <section class="contact-us-section py-5"  data-aos="fade-down"
-    data-aos-easing="ease-in-sine"
-    data-aos-duration="1000">
+    <section
+      class="contact-us-section py-5"
+      data-aos="fade-down"
+      data-aos-easing="ease-in-sine"
+      data-aos-duration="1000"
+    >
       <div class="container px-5">
         <!-- Section Title and Heading -->
         <div class="text-center mb-5">
@@ -126,9 +129,12 @@
     </section>
 
     <!-- Contact Section-------------- -->
-    <section class="contact-section py-5"  data-aos="fade-down"
-    data-aos-easing="ease-in-sine"
-    data-aos-duration="1000">
+    <section
+      class="contact-section py-5"
+      data-aos="fade-down"
+      data-aos-easing="ease-in-sine"
+      data-aos-duration="1000"
+    >
       <div class="container px-5">
         <div class="row align-items-center">
           <!-- Left: Contact Form -->
@@ -190,7 +196,14 @@
               </div>
 
               <!-- Submit Button -->
-              <button type="submit" class="btn volunteer-btn">Submit</button>
+              <button
+                type="button"
+                class="btn volunteer-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#thankYouModal"
+              >
+                Submit
+              </button>
             </form>
           </div>
 
@@ -205,6 +218,49 @@
         </div>
       </div>
     </section>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="thankYouModal"
+      tabindex="-1"
+      aria-labelledby="thankYouModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h5 class="modal-title" id="thankYouModalLabel">Thank You!</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <!-- Modal Body -->
+          <div class="modal-body text-center">
+            <p>
+              We appreciate you reaching out to us. Your message has been
+              successfully received. We'll get back to you as soon as possible!
+            </p>
+          </div>
+
+          <!-- Modal Footer -->
+          <div class="modal-footer justify-content-center">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer Section--------- -->
     <!-- Footer Section -->
@@ -225,7 +281,7 @@
                 alt="Company Logo"
                 class="logo-img"
               />
-              <h4 class="company-name">FEEM</h4>
+              <h4 class="company-names">FEEM</h4>
             </div>
             <!-- Paragraphs and Span -->
             <p>
@@ -240,19 +296,21 @@
 
           <!-- Middle Part: Links -->
           <div class="col-md-4 mb-4 mb-md-0">
-            <h4 class="company-name">Quick links</h4>
+            <h4 class="company-names">Quick links</h4>
             <ul class="footer-links list-unstyled">
               <li><a href="/pages/about.html">About Us</a></li>
-              <li><a href="#">What We Do</a></li>
-              <li><a href="#">Resources & Research</a></li>
-              <li><a href="#">Get Involved</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li><a href="/pages/what.html">What We Do</a></li>
+              <li>
+                <a href="/pages/ResearchResource.html">Resources & Research</a>
+              </li>
+              <li><a href="/pages/getinvolve.html">Get Involved</a></li>
+              <li><a href="/pages/contact.html">Contact Us</a></li>
             </ul>
           </div>
 
           <!-- Last Part: Social Media Icons -->
           <div class="col-md-4">
-            <h4 class="company-name">Follow Us</h4>
+            <h4 class="company-names">Follow Us</h4>
             <div class="social-icons">
               <a href="#"><i class="fab fa-facebook-f"></i></a>
               <a href="#"><i class="fab fa-twitter"></i></a>
@@ -262,13 +320,6 @@
           </div>
         </div>
         <span class="copyright">© 2024 FEEM</span>
-        <!-- Up Arrow Icon -->
-        <!-- Up Arrow Icon -->
-        <div id="scrollToTop" class="text-center mt-4">
-          <a href="#top" class="scroll-to-top">
-            <i class="fas fa-arrow-up"></i>
-          </a>
-        </div>
       </div>
     </footer>
 
@@ -280,5 +331,6 @@
         once: true,
       });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

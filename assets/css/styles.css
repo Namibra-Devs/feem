@@ -2794,10 +2794,21 @@ transition: 0.3s ease-in;
   font-weight: bold;
 }
 .partners-section img {
-  border-radius: 8px; /* Slightly rounded corners for the image */
+  border-radius: 8px; 
 }
 .partners-section .form-control {
-  border-radius: 6px; /* Smooth input styling */
+  border-radius: 6px; 
+}
+
+/* Download Modal------ */
+.modal-content {
+  background-color: #f8f9fa; 
+  border-radius: 8px;      
+}
+
+.modal-header {
+  background-color: #9634ca; 
+  color: white;           
 }
 
 
