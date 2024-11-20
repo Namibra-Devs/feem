@@ -2824,8 +2824,22 @@ transition: 0.3s ease-in;
   color: var(--second-text-color);
 }
 
+/* End of News Blog Section----- */
 
-
+/* Partnership Page------ */
+.partners-section {
+  background-color: #f8f9fa; /* Light background */
+}
+.partners-section .section-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.partners-section img {
+  border-radius: 8px; /* Slightly rounded corners for the image */
+}
+.partners-section .form-control {
+  border-radius: 6px; /* Smooth input styling */
+}
 
 
 
