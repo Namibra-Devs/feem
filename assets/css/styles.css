@@ -1923,7 +1923,7 @@ header .navlist a:hover::after {
 
 @media (max-width: 768px) {
   .research-page {
-    height: 30vh;
+    height: 55vh;
   }
   .research-content-section {
     padding: 0 1rem;
@@ -1971,6 +1971,33 @@ header .navlist a:hover::after {
   filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
 /* Enf Of Building Esteem Page---------- */
+
+/* Blog Post Page */
+.blog-post-page{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/images/blog-post.png") no-repeat center center/cover;
+  top: -14%;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+}
+
+@media (max-width: 768px) {
+  .blog-post-page{
+    height: 55vh;
+  }
+  .gender-page{
+    height: 55vh;
+  }
+  .menstrual-page{
+    height: 55vh;
+  }
+  .building-page{
+    height: 55vh;
+      }
+
+}
+
 
 /* Impact Stories page */
 .impact-stories {
