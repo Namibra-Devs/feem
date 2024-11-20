@@ -2695,6 +2695,149 @@ textarea {
 }
 /* End Of Donation Page-------------- */
 
+/* News Blogs Page--------------- */
+.news-blog-section {
+  position: relative;
+  height: 100%; 
+  margin-top: 70px;
+}
+
+.bg-image {
+  background-image: url('/assets/images/split6.jpg'); 
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2); 
+
+}
+
+.news-home {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.section-heading {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.work-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.news-heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.news-description {
+  font-size: 1rem;
+  color: #666;
+}
+
+.company-name {
+  font-size: 1rem;
+  color: var(--button-color);
+}
+
+.news-date {
+  font-size: 0.9rem;
+}
+
+.btn-link {
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--button-color) !important;
+}
+
+@media (max-width: 768px) {
+  .news-blog-section {
+    position: relative;
+    height: 90%; 
+    margin-top: 61px;
+  }
+  .news-heading{
+    font-size: 1.2rem;
+  }
+}
+
+/* Filter Buttons---------------- */
+.filter-section .filter-btn.active {
+  background-color: var(--button-color);
+  color: #fff;
+}
+
+.filter-section .filter-btn {
+  cursor: pointer;
+  font-family: Sofia Sans;
+font-size: 1rem;
+font-weight: 400;
+line-height: 18px;
+color: var(--button-color);
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+border: 1px solid var(--button-color);
+transition: 0.3s ease-in;
+}
+.filter-section .filter-btn:hover{
+  background-color: var(--button-color);
+  color: var(--bg-color);
+}
+.filter-section .card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.filter-section .card-img-top {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+  border-radius: 0; 
+}
+.filter-section .card-body {
+  text-align: left;
+}
+
+.filter-section .filter-item {
+  display: block;
+}
+.work-title{
+  color: var(--second-text-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Animations--------------------- */
