@@ -1973,7 +1973,7 @@ header .navlist a:hover::after {
 /* Enf Of Building Esteem Page---------- */
 
 /* Blog Post Page */
-.blog-post-page{
+.blog-post-page {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -1981,7 +1981,7 @@ header .navlist a:hover::after {
   top: -14%;
   filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
-.stories-more-page{
+.stories-more-page {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -1990,23 +1990,22 @@ header .navlist a:hover::after {
   filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
 @media (max-width: 768px) {
-  .blog-post-page{
+  .blog-post-page {
     height: 55vh;
   }
-  .gender-page{
+  .gender-page {
     height: 55vh;
   }
-  .menstrual-page{
+  .menstrual-page {
     height: 55vh;
   }
-  .building-page{
+  .building-page {
     height: 55vh;
-      }
-.stories-more-page{
-  height: 55vh;
+  }
+  .stories-more-page {
+    height: 55vh;
+  }
 }
-}
-
 
 /* Impact Stories page */
 .impact-stories {
@@ -2138,7 +2137,7 @@ header .navlist a:hover::after {
   background-image: url("/assets/images/get-home.png"); /* Replace with your image path */
   background-size: cover;
   background-position: center;
-  height: 100vh; 
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2157,7 +2156,6 @@ header .navlist a:hover::after {
 }
 /* DOnate Section----------- */
 
-
 .donate-head {
   font-family: Sofia Sans;
   font-size: 40px;
@@ -2166,55 +2164,55 @@ header .navlist a:hover::after {
 
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-color: var(--text-color);  
+  color: var(--text-color);
 }
-.donate-section h3{
+.donate-section h3 {
   font-family: Sofia Sans;
-font-size: 40px;
-font-weight: 600;
-line-height: 48px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
 
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: var(--button-color);
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--button-color);
 }
-.donate-section h5{
+.donate-section h5 {
   font-family: Sofia Sans;
-font-size: 30px;
-font-weight: 400;
-line-height: 36px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
 
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: var(--text-color);
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--text-color);
 }
-.donate-section p{
+.donate-section p {
   font-family: Sofia Sans;
-font-size: 20px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: var(--second-text-color);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--second-text-color);
 }
 .donate-btn {
-  width: Hug (165px)px;
-  height: Hug (48px)px;
+  width: Hug (165px) px;
+  height: Hug (48px) px;
   top: 309.25px;
   left: 77.18px;
   padding: 12px 23px 12px 23px;
   gap: 10px;
   border-radius: 5px 0px 0px 0px;
   opacity: 0px;
-background-color: var(--bg-color);
-color: var(--button-color); 
-border: 1px solid var(--button-color);
-transition: 0.3s ease-in; 
-filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+  background-color: var(--bg-color);
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
+  transition: 0.3s ease-in;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
 
-.donate-btn:hover{
+.donate-btn:hover {
   background-color: var(--button-color);
   color: var(--bg-color);
   border: 1px solid var(--bg-color);
@@ -2260,7 +2258,7 @@ filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
   cursor: pointer;
   color: inherit;
 }
-.border-bottom{
+.border-bottom {
   color: var(--text-color) !important;
 }
 /* Contact Section------------- */
@@ -2293,36 +2291,35 @@ filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 .contact-section textarea {
   resize: none;
 }
-.contact-section img{
+.contact-section img {
   filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
 
-
 @media (max-width: 768px) {
-  .get-involved-section{
+  .get-involved-section {
     height: 51vh;
     margin-top: 61px;
   }
-  .donate-head{
+  .donate-head {
     font-size: 25px;
     line-height: 25px;
   }
-  .donate-section h3{
+  .donate-section h3 {
     font-size: 25px;
     line-height: 25px;
   }
-  .donate-section h5{
+  .donate-section h5 {
     font-size: 20px;
     line-height: normal;
   }
-  .donate-section p{
+  .donate-section p {
     font-size: 17px;
     line-height: normal;
   }
-  .contact-us-section{
+  .contact-us-section {
     margin-top: 60px;
   }
-  .contact-us-section .icon i:hover{
+  .contact-us-section .icon i:hover {
     transform: none;
   }
 }
@@ -2330,17 +2327,15 @@ filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 
 /* Events Page------------------- */
 .event-image-section {
-  background-image: url('/assets/images/event-home.png');
+  background-image: url("/assets/images/event-home.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100%; 
+  height: 100%;
   position: relative;
- margin-top: 70px;
- filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+  margin-top: 70px;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
-
-
 
 .event-image-section .event-title {
   font-size: 2.5rem; /* Adjust as needed */
@@ -2351,9 +2346,8 @@ filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 /* Events Section---------- */
 .events-content-section {
   background-color: #f9f9f9;
-  
 }
-.event-item{
+.event-item {
   border: 1px solid #222222;
   border-left: none;
 }
@@ -2366,49 +2360,48 @@ filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 .events-content-section i {
   font-size: 25px;
   color: var(--button-color);
-  
 }
-.event-heading{
+.event-heading {
   font-family: Sofia Sans;
-font-size: 24px;
-font-weight: 700;
-line-height: 28.8px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: var(--button-color);
-width: 70%;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--button-color);
+  width: 70%;
 }
-.txt{
+.txt {
   font-family: Sofia Sans;
-font-size: 15px;
-font-weight: 400;
-line-height: 18px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: var(--second-text-color);
-width: 70%;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--second-text-color);
+  width: 70%;
 }
 .events-content-section img {
   border-radius: 0.5rem;
 }
-.featured-events-section i{
+.featured-events-section i {
   font-size: 1.5rem;
   color: #451162;
 }
-.card-title{
+.card-title {
   font-family: Sofia Sans;
-font-size: 24px;
-font-weight: 700;
-line-height: 28.8px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #451162;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #451162;
 }
 .events-content-section .event-image {
-  border-right: 2px solid #ddd; 
+  border-right: 2px solid #ddd;
 }
 
 /* Featured Events Section----- */
@@ -2422,29 +2415,28 @@ color: #451162;
   object-fit: cover;
 }
 
-
-@media (max-width: 768px){
-  .event-image-section{
+@media (max-width: 768px) {
+  .event-image-section {
     height: 93vh;
     margin-top: 61px;
   }
-  .event-item{
+  .event-item {
     border: none;
   }
-  .event-heading{
+  .event-heading {
     width: 100%;
   }
-  .txt{
+  .txt {
     width: 100%;
   }
-  .gallery-page img{
+  .gallery-page img {
     transform: none !important;
   }
 }
 /* End Of events Page */
 
 /* Gallery Page-------- */
-.gallery-page{
+.gallery-page {
   margin-top: 70px;
 }
 
@@ -2460,7 +2452,7 @@ color: #451162;
 
 /* Programs & Activitis Page----------------- */
 .programs-section {
-  background-image: url('/assets/images/act.jpg'); /* Replace with your image URL */
+  background-image: url("/assets/images/act.jpg"); /* Replace with your image URL */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2469,16 +2461,15 @@ color: #451162;
   margin-top: 70px;
   filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
-.programs-section h2{
+.programs-section h2 {
   margin-top: 20%;
   font-family: Sofia Sans;
-font-size: 40px;
-font-weight: 600;
-line-height: 48px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 .programs-section .section-title {
   font-size: 3rem; /* Adjust for your design */
@@ -2488,17 +2479,17 @@ text-decoration-skip-ink: none;
 
 @media (max-width: 768px) {
   .programs-section {
-    height: 90%; 
+    height: 90%;
     margin-top: 60px;
   }
-  .programs-section h2{
+  .programs-section h2 {
     font-size: 28px;
     line-height: 0;
     margin-top: 80%;
   }
 
   .programs-section .section-title {
-    font-size: 2rem; 
+    font-size: 2rem;
   }
 }
 
@@ -2508,7 +2499,7 @@ text-decoration-skip-ink: none;
 .programs-table-section table thead th {
   font-size: 1.25rem;
   font-weight: bold;
- 
+
   color: #451162;
   padding: 12px;
   border-bottom: 2px solid #000;
@@ -2565,7 +2556,144 @@ text-decoration-skip-ink: none;
   margin-top: 8px;
 }
 
+/* Donation Page--------------- */
+.donate-page-section {
+  position: relative;
+  background: url("/assets/images/dona2.avif") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+}
 
+.donate-page-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Semi-transparent black overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donate-page-section .container {
+  z-index: 1;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.donation-section h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--button-color);
+  font-family: Sofia Sans;
+  font-weight: 600;
+}
+
+.input-icon {
+  background-color: var(--button-color);
+  font-weight: bold;
+  color: var(--bg-color);
+  padding: 1rem 1.8rem;
+  border: none;
+}
+
+.amount-span {
+  background-color: var(--button-color);
+  border: none;
+  font-weight: bold;
+  color: var(--bg-color);
+  padding: 1rem 1.8rem;
+}
+
+.amount-option {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+
+  border: 1px solid var(--button-color) !important;
+  color: var(--button-color) !important;
+}
+.amount-option1 {
+  background-color: var(--button-color);
+  border: none;
+  font-weight: bold;
+  color: var(--bg-color);
+}
+.amount-option:hover {
+  background-color: var(--button-color);
+  color: #fff !important;
+  border-color: none;
+}
+.amounts {
+  gap: 1.5rem;
+}
+
+.payment-section {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  font-family: Sofia Sans;
+  font-weight: 600;
+}
+
+.section-heading {
+  font-size: 1.4rem;
+  color: var(--second-text-color);
+  font-family: Sofia Sans;
+}
+
+.total-span {
+  background-color: var(--button-color);
+  border: none;
+  font-weight: bold;
+  color: var(--bg-color);
+}
+
+textarea {
+  resize: none;
+}
+.form-check-input {
+  font-size: 1.6rem;
+}
+.donate-btn {
+  width: Hug (165px) px;
+  height: Hug (48px) px;
+  top: 309.25px;
+  left: 77.18px;
+  padding: 12px 23px 12px 23px;
+  gap: 10px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  background-color: var(--bg-color);
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
+  transition: 0.3s ease-in;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+}
+
+@media (max-width: 768px) {
+  .donate-page-section {
+    margin-top: 60px;
+    height: 90vh;
+  }
+  .amounts {
+    gap: 0.5rem;
+  }
+}
+/* End Of Donation Page-------------- */
 
 
 
