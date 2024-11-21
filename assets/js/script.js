@@ -47,8 +47,31 @@ function changeImage() {
 // Change image every 4 seconds
 setInterval(changeImage, 4000);
 
-
-
+     // Filter Functionality
+     const buttons = document.querySelectorAll('.filter-btn');
+     const items = document.querySelectorAll('.filter-item');
+   
+     buttons.forEach(button => {
+       button.addEventListener('click', () => {
+         const filter = button.getAttribute('data-filter');
+   
+         // Set Active Button
+         buttons.forEach(btn => btn.classList.remove('active', 'btn-primary'));
+         button.classList.add('active', 'btn-primary');
+   
+         // Show/Hide Items
+         items.forEach(item => {
+           if (filter === 'all' || item.classList.contains(filter)) {
+             item.style.display = 'block';
+           } else {
+             item.style.display = 'none';
+           }
+         });
+       });
+     });
+   
+     // Trigger "View All" on page load
+     document.querySelector('.filter-btn[data-filter="all"]').click();
 
 
 
