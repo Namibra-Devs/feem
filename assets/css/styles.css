@@ -420,7 +420,7 @@ header .navlist a:hover::after {
     padding: 0.6rem 1.2rem;
     font-size: 1.5rem;
     margin-left: 30%;
-    margin-top: 40px;
+  top: 40% !important;
   }
 
   .carousel-control-prev,
@@ -1137,7 +1137,7 @@ header .navlist a:hover::after {
   width: 100%;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
 }
 
 /* Mission and Vision Section Styling */
@@ -1209,6 +1209,11 @@ header .navlist a:hover::after {
   .core-under{
     width: 90% !important;
   }
+  .mission h3,
+.vision h3{
+  font-size: 1.7rem;
+  line-height: normal;
+}
 }
 /* End of Video Section */
 
@@ -1223,9 +1228,7 @@ header .navlist a:hover::after {
   text-decoration-skip-ink: none;
   color: var(--text-color);
 }
-.values-section img {
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
-}
+
 .core-under {
   display: block;
   width: 100%;
@@ -1376,11 +1379,6 @@ header .navlist a:hover::after {
   border-radius: 10px;
 }
 
-/* 3. Rotate or Tilt Effect */
-.image-part:hover {
-  transform: scale(1.05) rotate(2deg);
-}
-
 @media (max-width: 768px) {
   .dot-grid-background-core {
     display: none;
@@ -1439,13 +1437,6 @@ header .navlist a:hover::after {
   text-decoration-skip-ink: none;
   color: #454545;
 }
-.staff-section img {
-  transition: 0.5s ease-in;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
-}
-.staff-section img:hover {
-  transform: scale(1.06);
-}
 @media (max-width: 768px) {
   .staff-section img:hover {
     transform: none;
@@ -1457,7 +1448,7 @@ header .navlist a:hover::after {
 .history-section {
   display: flex;
   justify-content: center;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+
 }
 
 .history {
