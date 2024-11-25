@@ -1684,7 +1684,7 @@ header .navlist a:hover::after {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/assets/images/resources-home.png");
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1744,7 +1744,7 @@ header .navlist a:hover::after {
 
 /* Research section */
 .research-section {
-  background-color: #f9f9f9; /* Light background */
+  background-color: #f9f9f9; 
 }
 
 .research-title {
@@ -1758,7 +1758,7 @@ header .navlist a:hover::after {
   padding: 1.5rem;
   border: 1px solid #ddd;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1);
   height: 100%;
 }
 
@@ -1810,7 +1810,7 @@ header .navlist a:hover::after {
   height: 100vh;
   background: url("/assets/images/research.png") no-repeat center center/cover;
   top: -14%;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+
 }
 .research-content-section {
   position: relative;
@@ -1894,7 +1894,7 @@ header .navlist a:hover::after {
   height: 100vh;
   background: url("/assets/images/research1.png") no-repeat center center/cover;
   top: -14%;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+
 }
 /* End of Gender Page ---------------*/
 
@@ -1905,7 +1905,7 @@ header .navlist a:hover::after {
   height: 100vh;
   background: url("/assets/images/research3.png") no-repeat center center/cover;
   top: -14%;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+
 }
 /* End Of Menstrual Page--------- */
 
@@ -1916,7 +1916,7 @@ header .navlist a:hover::after {
   height: 100vh;
   background: url("/assets/images/research4.png") no-repeat center center/cover;
   top: -14%;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+
 }
 /* Enf Of Building Esteem Page---------- */
 
@@ -1927,7 +1927,7 @@ header .navlist a:hover::after {
   height: 100vh;
   background: url("/assets/images/blog-post.png") no-repeat center center/cover;
   top: -14%;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+
 }
 .stories-more-page {
   position: relative;
@@ -1935,7 +1935,7 @@ header .navlist a:hover::after {
   height: 100vh;
   background: url("/assets/images/blog-post.png") no-repeat center center/cover;
   top: -14%;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+
 }
 @media (max-width: 768px) {
   .blog-post-page {
@@ -1981,9 +1981,7 @@ header .navlist a:hover::after {
   text-decoration-skip-ink: none;
   color: #451162;
 }
-.impact-stories img {
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
-}
+
 .story-details {
   width: 70%;
 }
@@ -2048,9 +2046,7 @@ header .navlist a:hover::after {
   color: var(--text-color);
 }
 
-.shadow {
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
+
 /* End--------------- */
 .impact-title {
   font-family: Sofia Sans;
@@ -2089,7 +2085,7 @@ header .navlist a:hover::after {
   display: flex;
   align-items: center;
   justify-content: center;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+
   margin-top: 70px;
 }
 
@@ -2157,7 +2153,7 @@ header .navlist a:hover::after {
   color: var(--button-color);
   border: 1px solid var(--button-color);
   transition: 0.3s ease-in;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+
 }
 
 .donate-btn:hover {
@@ -2170,7 +2166,7 @@ header .navlist a:hover::after {
   height: 100%;
   display: block;
   border-radius: 10px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+
 }
 /* End Of Get Involved Page---- */
 
@@ -2239,9 +2235,7 @@ header .navlist a:hover::after {
 .contact-section textarea {
   resize: none;
 }
-.contact-section img {
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
-}
+
 
 @media (max-width: 768px) {
   .get-involved-section {
@@ -2282,7 +2276,7 @@ header .navlist a:hover::after {
   height: 100%;
   position: relative;
   margin-top: 70px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+
 }
 
 .event-image-section .event-title {
@@ -2491,7 +2485,7 @@ header .navlist a:hover::after {
 
 .activities-section img {
   border: 2px solid #ddd;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
 }
 
 .activities-section p {
@@ -2509,7 +2503,7 @@ header .navlist a:hover::after {
   display: flex;
   align-items: center;
   margin-top: 70px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+
 }
 
 .donate-page-section .overlay {
@@ -2626,7 +2620,7 @@ textarea {
   color: var(--button-color);
   border: 1px solid var(--button-color);
   transition: 0.3s ease-in;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+  
 }
 
 @media (max-width: 768px) {
@@ -2653,7 +2647,7 @@ textarea {
   background-position: center;
   width: 100%;
   height: 100%;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+ 
 }
 
 .overlay {
@@ -2749,7 +2743,7 @@ transition: 0.3s ease-in;
 .filter-section .card {
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .filter-section .card-img-top {
