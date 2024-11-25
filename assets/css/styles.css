@@ -256,7 +256,7 @@ header .navlist a:hover::after {
   height: 100vh;
   overflow: hidden;
   margin-top: 69px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+ 
 }
 .hero-section {
   position: relative;
@@ -392,7 +392,7 @@ header .navlist a:hover::after {
     height: 100vh;
   }
   .home-section {
-    margin-top: 62px;
+    margin-top: 60px;
   }
   .styled-title {
     font-size: 1rem;
@@ -466,9 +466,9 @@ header .navlist a:hover::after {
   color: var(--button-color);
   margin-bottom: 15px;
 }
-.lead {
-  color: #626262;
-  font-size: 24px;
+.intro-lead {
+  color: var(--second-text-color);
+  font-size: 1.5rem;
 }
 
 /* Intro Text Responsivenes------ */
@@ -476,8 +476,8 @@ header .navlist a:hover::after {
   .intro-text h2 {
     font-size: 18px;
   }
-  .lead {
-    font-size: 16px;
+  .intro-lead {
+    font-size: 1.1rem;
   }
 }
 /* End of intro text section */
@@ -491,11 +491,7 @@ header .navlist a:hover::after {
   background-color: transparent;
   transition: 0.5s;
 }
-.card:hover {
-  border: 1px;
-  background-color: var(--bg-color);
-  transform: scale(1.05);
-}
+
 .card-title {
   font-size: 24px;
   color: #222222;
@@ -507,7 +503,7 @@ header .navlist a:hover::after {
 }
 .card img {
   width: 120px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
+  
 }
 .work-btn {
   font-size: 18px;
@@ -570,6 +566,7 @@ header .navlist a:hover::after {
   background-color: #ffffff;
   position: relative;
   overflow: hidden;
+  
 }
 
 .dot-grid-background-left {
@@ -765,9 +762,7 @@ header .navlist a:hover::after {
   background-color: var(--button-color);
   border-radius: 50%;
 }
-.events-section img {
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
-}
+
 /* Vertical Line for Events */
 .vertical-line {
   width: 10px;
@@ -856,18 +851,15 @@ header .navlist a:hover::after {
     margin-top: 6px;
     margin-right: 8px;
   }
+  .vertical-line{
+    margin-right: 3px;
+  }
 }
 /* End of Events Section */
 
 /* Testimonies Section----------- */
-.stories img {
-  transition: 0.5s;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
-}
-.stories img:hover {
-  transform: scale(1.05);
-}
-.text-start {
+
+.story-content {
   font-family: Sofia Sans;
   font-size: 18px;
   font-weight: 400;
@@ -893,13 +885,14 @@ header .navlist a:hover::after {
   .text-start {
     width: 85%;
   }
+  .story-content{
+    text-align: center;
+    padding: 0px 10px;
+  }
 }
 /* End of Testimonies Section */
 
 /* Volunteer section---- */
-.volunteer-section {
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
-}
 .volunteer-btn {
   width: Hug (142px) px;
   height: Hug (48px) px;
@@ -921,9 +914,7 @@ header .navlist a:hover::after {
 /*End of Volunteer section---- */
 
 /* Blogs Sction----- */
-.blog-section img {
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
-}
+
 .date {
   font-family: Sofia Sans;
   font-size: 18px;
@@ -967,9 +958,7 @@ header .navlist a:hover::after {
   }
 }
 /* End Of Blog Section */
-.gallery-section img {
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
-}
+
 /* Footer Section-------------- */
 
 .footer-section {
