@@ -863,7 +863,10 @@ header .navlist a:hover::after {
 /* End of Events Section */
 
 /* Testimonies Section----------- */
-
+.test img{
+width: 150px;
+height: 130px;
+}
 .story-content {
   font-family: Sofia Sans;
   font-size: 18px;
@@ -912,6 +915,12 @@ header .navlist a:hover::after {
   .name {
     text-align: center !important;
     line-height: normal;
+  }
+  .testimony-video-container{
+    max-width: 100%;
+  }
+  .test img{
+    width: 210px;
   }
 }
 /* End of Testimonies Section */
@@ -981,8 +990,20 @@ header .navlist a:hover::after {
     font-size: 1rem;
     line-height: normal;
   }
+  .gallery img{
+    width: 175px !important;
+    height: 170px !important;
+  }
+  
 }
 /* End Of Blog Section */
+
+/* Gsllery Section--------- */
+.gallery img{
+  width: 250px;
+  height: 215px;
+}
+
 
 /* Footer Section-------------- */
 
