@@ -1148,8 +1148,7 @@ height: 130px;
 
 @media (max-width: 768px) {
   .heading-top-left {
-    width: 70%;
-    font-size: 1.2rem;
+ display: none;
   }
   .heading-bottom-right {
     margin-left: 8%;
@@ -1161,7 +1160,7 @@ height: 130px;
     margin-top: 10px;
   }
   .about-intro-section {
-    height: 55vh;
+    height: 40vh;
   }
 }
 /* End of Intro */
