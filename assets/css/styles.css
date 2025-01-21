@@ -1344,7 +1344,7 @@ header .navlist a:hover::after {
 
 .dot-grid-background-core {
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 34;
   transform: translate(-50%, -50%);
   display: grid;
@@ -1373,7 +1373,7 @@ header .navlist a:hover::after {
 }
 .focus-section p {
   font-family: Sofia Sans;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 400;
   line-height: 30.49px;
   text-align: left;
