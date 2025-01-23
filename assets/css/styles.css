@@ -2017,7 +2017,7 @@ header .navlist a:hover::after {
 }
 .impact-heading {
   font-family: Sofia Sans;
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 600;
   line-height: 54px;
   text-align: left;
@@ -2059,7 +2059,7 @@ header .navlist a:hover::after {
 
 @media (max-width: 768px) {
   .impact-heading {
-    font-size: 25px;
+    font-size: 18px;
     line-height: 25px;
   }
   .story-details {
