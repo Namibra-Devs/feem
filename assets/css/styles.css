@@ -1789,6 +1789,28 @@ header .navlist a:hover::after {
 }
 /* End of Intro Section--------- */
 
+
+/* Scholarship Page */
+.scholarship-page{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/images/event3.jpeg") no-repeat center center/cover;
+  top: -14%;
+}
+.scholarship-content-section{
+  margin: 55% 0;
+}
+@media (max-width: 768px){
+  .scholarship-content-section{
+    margin: 250% 0;
+  }
+}
+
+/* End of Scholarship Page */
+
+
+
 /* Research section */
 .research-section {
   background-color: #f9f9f9;
@@ -1944,6 +1966,14 @@ header .navlist a:hover::after {
   background: url("/assets/images/gender.png") no-repeat center center/cover;
   top: -14%;
 }
+.gender-content-section{
+margin: 35% 0;
+}
+@media (max-width: 768px){
+  .gender-content-section{
+    margin: 150% 0;
+  }
+}
 /* End of Gender Page ---------------*/
 
 /* Menstrual Page--------- */
@@ -1954,6 +1984,14 @@ header .navlist a:hover::after {
   background: url("/assets/images/research3.png") no-repeat center center/cover;
   top: -14%;
 }
+.menstrual-content-section{
+  margin: 17% 0;
+}
+@media (max-width: 768px){
+  .menstrual-content-section{
+    margin: 74% 0;
+  }
+}
 /* End Of Menstrual Page--------- */
 
 /* Building Esteem Page---------- */
@@ -1963,6 +2001,14 @@ header .navlist a:hover::after {
   height: 100vh;
   background: url("/assets/images/self.png") no-repeat center center/cover;
   top: -14%;
+}
+.self-content-section{
+  margin: 17% 0;
+}
+@media (max-width: 768px){
+  .self-content-section{
+    margin: 64% 0;
+  }
 }
 /* Enf Of Building Esteem Page---------- */
 
