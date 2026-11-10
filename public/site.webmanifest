@@ -1,0 +1,21 @@
+{
+  "name": "Female Empowerment Initiative (FEEM)",
+  "short_name": "FEEM",
+  "description": "Female Empowerment Initiative causes positive impact in society through women and girls, investing in education, health, and leadership.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f6ee",
+  "theme_color": "#2e3a2f",
+  "icons": [
+    {
+      "src": "/assets/images/feem-logo.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    },
+    {
+      "src": "/assets/images/feem-logo.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ]
+}
